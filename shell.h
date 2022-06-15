@@ -133,5 +133,10 @@ void help_unsetenv(void);
 void help_history(void);
 
 int proc_file_commands(char *file_path, int *exe_ret);
-
+int _strlen(const char *s);
+char *_strcpy(char *dest, const char *src);
+int _putchar(char c);
+void _puts(char *str);
+unsigned int nbr_spaces(char *s);
+char **stringToTokens(char *str);
 #endif
